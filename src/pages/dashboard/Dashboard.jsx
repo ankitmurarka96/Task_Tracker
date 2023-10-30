@@ -1,7 +1,7 @@
 import Sidebar from '../../components/sidebar/Sidebar';
 import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import './dashboard.scss';
+import './Dashboard.scss';
 import { useEffect } from 'react';
 import { getAllTasks } from '../../redux/taskSlice';
 const Dashboard = () => {
